@@ -21,7 +21,7 @@ services:
       DB_PASSWORD: passcode
       DB_NAME: ente_db
     volumes:
-      - /museum.yaml:/museum.yaml:ro
+      - ./museum.yaml:/museum.yaml:ro
       - ./data:/data:ro
 
 
