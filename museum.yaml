@@ -28,7 +28,7 @@ s3:
       # use_path_style_urls: true
       key: randomkey
       secret: passcode
-      endpoint: localhost:3200
+      endpoint: ente-ente-xkywy9-977b0b-184-168-126-244.traefik.me:3200
       region: eu-central-2
       bucket: b2-eu-cen
     wasabi-eu-central-2-v3:
@@ -36,7 +36,7 @@ s3:
       # use_path_style_urls: true
       key: randomkey
       secret: passcode
-      endpoint: localhost:3200
+      endpoint: ente-ente-xkywy9-977b0b-184-168-126-244.traefik.me:3200
       region: eu-central-2
       bucket: wasabi-eu-central-2-v3
       compliance: false
@@ -45,7 +45,7 @@ s3:
       # use_path_style_urls: true
       key: randomkey
       secret: passcode
-      endpoint: localhost:3200
+      endpoint: ente-ente-xkywy9-977b0b-184-168-126-244.traefik.me:3200
       region: eu-central-2
       bucket: scw-eu-fr-v3
 
@@ -53,12 +53,12 @@ s3:
 apps:
     # If you're running a self hosted instance and wish to serve public links,
     # set this to the URL where your albums web app is running.
-    public-albums: http://localhost:3002
-    cast: http://localhost:3004
-    embed-albums: http://localhost:3005
+    public-albums: http://ente-ente-xkywy9-77ae47-184-168-126-244.traefik.me:3002
+    cast: http://ente-ente-xkywy9-77ae47-184-168-126-244.traefik.me:3004
+    embed-albums: http://ente-ente-xkywy9-77ae47-184-168-126-244.traefik.me:3005
     # Set this to the URL where your accounts web app is running, primarily used for
     # passkey based 2FA.
-    accounts: http://localhost:3001
+    accounts: http://ente-ente-xkywy9-77ae47-184-168-126-244.traefik.me:3001
 
 # Key used for encrypting customer emails before storing them in DB
 #
